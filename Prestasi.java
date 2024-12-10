@@ -50,7 +50,8 @@ public class Prestasi {
         while (true) {
             System.out.print("Masukkan Tingkat Prestasi (Lokal/Nasional/Internasional): ");
             tingkat = scanner.nextLine();
-            if (tingkat.equalsIgnoreCase("Lokal") || tingkat.equalsIgnoreCase("Nasional") || tingkat.equalsIgnoreCase("Internasional")) {
+            if (tingkat.equalsIgnoreCase("Lokal") || tingkat.equalsIgnoreCase("Nasional") || 
+                tingkat.equalsIgnoreCase("Internasional")) {
                 break;
             } else {
                 System.out.println("Tingkat prestasi tidak valid. Harap masukkan Lokal, Nasional, atau Internasional.");
