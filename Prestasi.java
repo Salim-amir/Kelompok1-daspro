@@ -15,7 +15,7 @@ public class Prestasi {
             System.out.println("2. Tampilkan Semua Prestasi");
             System.out.println("3. Analisis Prestasi Berdasarkan Jenis");
             System.out.println("4. Keluar");
-            System.out.print("Pilih menu: ");
+            System.out.print("Pilih Menu: ");
             pilihan = scanner.nextInt();
             scanner.nextLine(); 
 
